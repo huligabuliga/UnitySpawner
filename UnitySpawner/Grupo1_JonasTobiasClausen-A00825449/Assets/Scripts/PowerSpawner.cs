@@ -9,7 +9,7 @@ public class PowerSpawner : MonoBehaviour
 
     Vector2 spawnPoint;
     public float spawnRate = 1f;
-    float nextSpawn = 1f;
+    float nextSpawn = 1.5f;
 
     public int spawnTime = 5;
     // Start is called before the first frame update
