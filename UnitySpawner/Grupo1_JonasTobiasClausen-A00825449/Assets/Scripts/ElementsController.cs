@@ -20,6 +20,10 @@ public class ElementsController : MonoBehaviour
         if(transform.position.y < -5 )
         {
             Destroy(gameObject);
+            if (gameObject.tag == "Rock")
+            {
+                vidas.vidasCant -= 1;
+            }
         }
     }
 }
